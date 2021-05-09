@@ -17,7 +17,7 @@
         <p> Digite o mês do seu nascimento: </p>
         <input type="text" name="mes_do_nascimento" onkeyup="this.value = this.value.toUpperCase()">
         <p> Digite o dia do seu nascimento: </p>
-        <input type="text" name="dia_do_nascimento">
+        <input type="number" min="1" max="31 "name="dia_do_nascimento">
         <input type="submit">
     </form>
 </body>
